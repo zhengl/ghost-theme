@@ -1009,6 +1009,11 @@ article #disqus_thread {
         font-size: 1.1rem;
     }
 
+    main #disqus_thread {
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 
 /* ==========================================================================
