@@ -545,12 +545,19 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.5em;
 }
 
+#disqus_thread {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: #EBF2F6 2px solid;
+    border-radius: 10px;
+    padding: 4rem;
+}
+
 main #disqus_thread {
     display: block;
     width: 80%;
     max-width: 700px;
     margin: 0 auto;
-    text-align: center;
 }
 
 article #disqus_thread {
@@ -893,6 +900,10 @@ article #disqus_thread {
         font-size: 2.8rem;
     }
 
+    #disqus_thread {
+        padding: 2rem;
+    }
+
 }
 
 /* ==========================================================================
@@ -1007,6 +1018,10 @@ article #disqus_thread {
     .site-footer {
         margin-top: 6rem;
         font-size: 1.1rem;
+    }
+
+    #disqus_thread {
+        padding: 2rem;
     }
 
     main #disqus_thread {
