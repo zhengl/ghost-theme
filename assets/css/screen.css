@@ -389,30 +389,7 @@ margin on the iframe, cause it breaks stuff. */
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-size: cover;
-}
-
-.site-head-text {
     text-align: right;
-    float: right;
-}
-
-.site-head-graph {
-    float: left;
-    min-width: 150px;
-}
-
-.site-head-graph .social {
-    text-align: center;
-}
-
-.site-head-graph .social a {
-    text-decoration: none;
-    color: #999;
-}
-
-.site-head-graph .social a:hover {
-    color: #57A3E8;
-    transition: color ease 0.3s;
 }
 
 .blog-logo {
@@ -424,7 +401,7 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     max-height: 100px;
     width: auto;
-    margin: 30px auto 5px auto;
+    margin: 4rem auto 0 auto;
     line-height: 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -449,7 +426,7 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: 0;
     color: #ddd;
     text-decoration: none;
-    top: 2.5rem;
+    top: 1.5rem;
 }
 
 .blog-description {
@@ -746,6 +723,15 @@ margin on the iframe, cause it breaks stuff. */
     color: #50585D;
 }
 
+.site-footer .social {
+    margin: 2rem 0 4rem 0;
+}
+
+.site-footer .social a {
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
 .poweredby .icon-ghost {
     font-weight: 700;
     text-decoration: none;
@@ -851,12 +837,7 @@ margin on the iframe, cause it breaks stuff. */
         -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box;
         box-sizing: border-box; 
-        height: auto;
     }
-
-    .blog-logo img {
-        margin-top: 5px;
-    }    
 
     .blog-title {
         font-size: 8rem;
@@ -865,7 +846,7 @@ margin on the iframe, cause it breaks stuff. */
 
     .blog-title-pronouciation {
         font-size: 1.5rem;
-        top: 2.0rem;
+        top: 1.0rem;
     }  
 
     .blog-description {
@@ -907,14 +888,11 @@ margin on the iframe, cause it breaks stuff. */
 
 
 @media only screen and (max-width: 500px) {
-    .site-head-text {
-        float: none;
-        text-align: center;
-        margin-bottom: 4rem;
+    .site-head {
+        height: 60%;
     }
 
-    .site-head-graph {
-        float: none;
+    .site-head-content {
         text-align: center;
     }
 

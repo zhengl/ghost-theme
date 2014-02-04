@@ -7,26 +7,16 @@
 <header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical">
         <div class="site-head-content inner">
-            <div class="site-head-text">
-                <h1 class="blog-title">
-                    {{@blog.title}}
-                    <a href="#" class="blog-title-pronouciation icon-read" onclick="document.getElementById('pronouciation').play()">[zing3]</a>
-                    <audio id="pronouciation" preload="auto">
-                        <source src="/shared/audio/prounciation.ogg" type="audio/ogg">
-                        <source src="/shared/audio/prounciation.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </h1>
-                <h2 class="blog-description">{{@blog.description}}</h2>
-            </div>
-            <div class="site-head-graph">
-                <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
-                <div class="social">
-                    <a href="http://www.linkedin.com/pub/zheng-li/32/6b1/1b2" class="icon-linkedin" title="Linkedin"></a>
-                    <a href="https://github.com/zhengl" class="icon-github" title="Github"></a>
-                    <a href="http://blog.163.com/loy_lee" class="icon-pencil" title="Blog (chn)"></a>
-                </div>
-            </div>
+            <h1 class="blog-title">
+                {{@blog.title}}
+                <a href="#" class="blog-title-pronouciation icon-read" onclick="document.getElementById('pronouciation').play()">[zing3]</a>
+                <audio id="pronouciation" preload="auto">
+                    <source src="/shared/audio/prounciation.ogg" type="audio/ogg">
+                    <source src="/shared/audio/prounciation.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </h1>
+            <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
     </div>
 </header>
