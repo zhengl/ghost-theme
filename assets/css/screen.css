@@ -401,7 +401,7 @@ margin on the iframe, cause it breaks stuff. */
     display: block;
     max-height: 100px;
     width: auto;
-    margin: 4rem auto 0 auto;
+    margin: 0 auto;
     line-height: 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
