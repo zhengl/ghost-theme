@@ -485,6 +485,21 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.6em;
 }
 
+.post-comment {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.post-comment a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #9EABB3;
+}
+
+.post-comment a:hover {
+    color: #57A3E8;
+}
+
 .post-meta {
     display: inline-block;
     margin: 0 0 5px 0;
