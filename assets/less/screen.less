@@ -355,6 +355,28 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 0.6rem 1.2rem;
+	font-size: 1.5rem;
+	line-height: 1.428571429;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -489,18 +511,31 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.6em;
 }
 
-.post-comment {
-    text-align: center;
-    margin: 1rem 0;
+.post-read-more {
+	margin-top: 2rem;
 }
 
-.post-comment a {
+.post-read-more {
+	color: @white;
+	background-color: @blue;
+	border-color: @blue;
+}
+
+.post-read-more:hover {
+	color: @white;
+	background-color: @light-blue;
+	border-color: @light-blue;
+}
+
+.post-comment {
+    float: right;
+    margin: 2.6rem 2rem 0 0;
     font-size: 1.5rem;
     text-decoration: none;
     color: @gray;
 }
 
-.post-comment a:hover {
+.post-comment:hover {
     color: @light-black;
 }
 
