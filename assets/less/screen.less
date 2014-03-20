@@ -511,6 +511,13 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.6em;
 }
 
+.post-excerpt img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
 .post-read-more {
 	margin-top: 2rem;
 }
@@ -771,9 +778,9 @@ article #disqus_thread {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: @light-gray;
+    color: @white;
     text-align: center;
-    background: #F7FAFB;
+    background: @black;
 }
 
 .site-footer a {
@@ -782,7 +789,7 @@ article #disqus_thread {
 }
 
 .site-footer a:hover {
-    color: @gray;
+    color: @white;
 }
 
 .site-footer .social {
@@ -816,21 +823,20 @@ article #disqus_thread {
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: @border-color 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
-    background: #fff;
+    background: @black;
     transition: box-shadow 0.5s;
 }
 
 /* The RSS icon, inserted via icon font */
 .subscribe:before {
-    color: #D2DEE3;
+    color: @light-gray;
     font-size: 10px;
     position: absolute;
     top: 9px;
-    left: 9px;
+    left: 6px;
     font-weight: bold;
     transition: color 0.5s ease;
 }
@@ -842,7 +848,7 @@ article #disqus_thread {
 }
 
 .subscribe:hover:before {
-    color: #50585D;
+    color: @white;
 }
 
 /* CSS tooltip saying "Subscribe!" - initially hidden */
